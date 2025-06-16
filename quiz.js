@@ -18,7 +18,7 @@ const userAnswer = selectedOption.value;
 
 // Compare the user's answer to correct answer
 if (userAnswer === correctAnswer) {
-    feedbackDiv.textContent ="Correct ! Well done.";
+    feedbackDiv.textContent = "Correct! Well done.";
     feedbackDiv.style.color = "green";
 } else {
     feedbackDiv.textContent = "That's incorrect. Try again!";
