@@ -18,11 +18,11 @@ const userAnswer = selectedOption.value;
 
 // Compare the user's answer to correct answer
 if (userAnswer === correctAnswer) {
-    feedback.textContent ="Correct ! Well done.";
-    feedback.style.color = "green";
+    feedbackDiv.textContent ="Correct ! Well done.";
+    feedbackDiv.style.color = "green";
 } else {
-    feedback.textContent = "That's incorrect. Try again!";
-    feedback.style.color = "red";
+    feedbackDiv.textContent = "That's incorrect. Try again!";
+    feedbackDiv.style.color = "red";
  }
 }
 // Add event listener to the submit button
